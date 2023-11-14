@@ -4,3 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+body{
+    font-family: arial, sans-serif;
+}
+
+/* Utils */
+.container{
+    background-color: white;
+    padding: 20px;
+}
+
+/* Header */
+#logo{
+    height: 80px;
+    vertical-align: middle;
+}
+
+.name_page{
+    display: inline;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: 800;
+}
