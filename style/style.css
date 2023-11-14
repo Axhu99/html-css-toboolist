@@ -8,12 +8,30 @@
 /* Generics */
 body{
     font-family: arial, sans-serif;
+    background-color: #6ED663;
 }
+
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 
 /* Utils */
 .container{
     background-color: white;
     padding: 20px;
+    margin-bottom: 40px;
+}
+
+.container_main{
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 1px;
 }
 
 /* Header */
@@ -27,4 +45,17 @@ body{
     vertical-align: middle;
     font-size: 50px;
     font-weight: 800;
+}
+
+/* main */
+
+.button_main_task{
+    color: white;
+    background-color: #1E90FF;
+}
+
+.button_main_section{
+    color: #808080;
+    background-color: white;
+    border: 1px solid #808080 ;
 }
