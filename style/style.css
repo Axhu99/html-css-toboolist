@@ -22,8 +22,7 @@ ul{
 }
 
 li{
-    margin: 10px 0;
-    height: 20px;
+    margin: 15px 0;
     line-height: 20px;
 }
 
@@ -59,6 +58,24 @@ li{
     text-align: center;
     margin-right: 5px;
 }
+.cross{
+    display: inline-block;
+    color: red;
+    height: 20px;
+    width: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.special_tag{
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}
 
 /* Header */
 #logo{
@@ -90,12 +107,29 @@ li{
 
 .li_main_title{
     font-size: 20px;
-    font-weight: 600;
     margin: 20px 0;
-    
+    font-weight: 600;
 }
 
 .ul_main_row{
     font-weight: normal;
 
+}
+.tag_editorial{
+    background-color: #45ABEA;
+}
+.tag_q1-goals{
+    background-color: #9C72E4;
+}
+.tag_recruiting{
+    background-color: #64C0A9;
+}
+.tag_mobile{
+    background-color: #F29E33;
+}
+.tag_website{
+    background-color: #D863A1;
+}
+.tag_sales{
+    background-color: #B0C926;
 }
