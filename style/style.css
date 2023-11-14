@@ -17,6 +17,15 @@ a{
     padding: 10px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 10px 0;
+    height: 20px;
+    line-height: 20px;
+}
 
 /* Utils */
 .container{
@@ -32,6 +41,23 @@ a{
     padding: 20px 30px;
     border-radius: 10px;
     margin-bottom: 1px;
+}
+
+.special_symbol{
+    font-size: 0.8rem;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.check{
+    display: inline-block;
+    color: #128912;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #128912;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
 }
 
 /* Header */
@@ -58,4 +84,18 @@ a{
     color: #808080;
     background-color: white;
     border: 1px solid #808080 ;
+}
+
+/* list section */
+
+.li_main_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    
+}
+
+.ul_main_row{
+    font-weight: normal;
+
 }
